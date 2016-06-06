@@ -7,7 +7,6 @@ public class Startup
 	{
 		app.UseDefaultFiles();
 		app.UseStaticFiles();
-        app.UseDirectoryBrowser();
     }
 
     public static void Main(string[] args) => WebApplication.Run(args);
